@@ -1,0 +1,12 @@
+.navbar {
+  background: linear-gradient(
+    179.4deg,
+    rgba(253, 240, 233, 0.66) 2.2%,
+    rgba(255, 194, 203, 0.67) 96.2%
+  );
+  padding: 0;
+}
+
+.navbar_container img {
+  width: 50px;
+}

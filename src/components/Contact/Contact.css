@@ -1,0 +1,43 @@
+#contact .contact-container img {
+  width: 30%;
+}
+#contact .contact-container .cs-col ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact .contact-container .cs-col li {
+  list-style: none;
+  font-size: 13px;
+}
+#contact .contact-container .cs-col li span {
+  margin-right: 5px;
+}
+#contact .contact-container .cs-col li a {
+  text-decoration: none;
+}
+#contact .contact-container .cs-col .payment-logo {
+  display: block;
+  margin: 0 auto;
+}
+#contact .contact-container .ct-col p {
+  font-size: 13px;
+  line-height: 1vh;
+  text-align: center;
+}
+#contact .contact-container .ct-col p span {
+  margin-right: 5px;
+}
+#contact .contact-container .ct-col ul {
+  display: flex;
+  justify-content: center;
+}
+#contact .contact-container .ct-col li {
+  list-style: none;
+  margin: 0 10px;
+}
+#contact .contact-container .QRcode-col img {
+  display: block;
+  margin: 0 auto;
+}
