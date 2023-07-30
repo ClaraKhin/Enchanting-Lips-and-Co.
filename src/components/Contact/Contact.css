@@ -1,43 +1,58 @@
 #contact .contact-container img {
   width: 30%;
 }
-#contact .contact-container .cs-col ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-#contact .contact-container .cs-col li {
+
+#contact .contact-container .cs-col p {
   list-style: none;
   font-size: 13px;
+  line-height: 1vh;
 }
-#contact .contact-container .cs-col li span {
+#contact .contact-container .cs-col p span {
   margin-right: 5px;
 }
-#contact .contact-container .cs-col li a {
+#contact .contact-container .cs-col p a {
   text-decoration: none;
 }
-#contact .contact-container .cs-col .payment-logo {
-  display: block;
-  margin: 0 auto;
-}
+
 #contact .contact-container .ct-col p {
   font-size: 13px;
   line-height: 1vh;
-  text-align: center;
 }
 #contact .contact-container .ct-col p span {
   margin-right: 5px;
 }
-#contact .contact-container .ct-col ul {
-  display: flex;
-  justify-content: center;
+#contact .contact-container .ct-col .social-media {
+  margin: 0 5px;
 }
-#contact .contact-container .ct-col li {
-  list-style: none;
-  margin: 0 10px;
-}
-#contact .contact-container .QRcode-col img {
-  display: block;
-  margin: 0 auto;
+
+@media (max-width: 768px) {
+  #contact .contact-container .cs-col p {
+    font-size: 8.5px;
+  }
+  #contact .contact-container .cs-col h4 {
+    font-size: 12px;
+  }
+  #contact .contact-container .ct-col h4 {
+    font-size: 12px;
+  }
+  #contact .contact-container .ct-col p {
+    font-size: 8.5px;
+  }
+  #contact .contact-container .ct-col p.address {
+    line-height: 2vh;
+  }
+  #contact .contact-container .ct-col h6 {
+    font-size: 12px;
+  }
+  #contact .contact-container .QRcode-col {
+    display: block;
+    margin: 2rem auto 0 auto;
+  }
+  #contact .contact-container .QRcode-col h4 {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+  #contact .contact-container .QRcode-col img {
+    width: 100px;
+  }
 }
