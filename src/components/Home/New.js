@@ -15,7 +15,7 @@ const NewRealease = () => {
                 <img src={value.image} alt={value.desc} className="img-fluid" />
                 <div className="image-overlay">
                   <p className="image-text">{value.desc}</p>
-                  <p className="image-price">{value.price}MMK</p>
+                  <p className="image-price">US ${value.price}</p>
                 </div>
               </div>
             </Col>

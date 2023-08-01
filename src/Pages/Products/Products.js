@@ -5,7 +5,7 @@ const Products = () => {
   return (
     <section id="products">
       <div>
-        <h1>Product</h1>
+        <h1>Products</h1>
       </div>
     </section>
   );

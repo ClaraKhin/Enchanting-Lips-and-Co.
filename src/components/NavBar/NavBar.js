@@ -10,7 +10,10 @@ const NavBar = () => {
         <Navbar key={expand} expand={expand} className="navbar" sticky="top">
           <Container fluid className="navbar_container">
             <Navbar.Brand href="#home">
-              <img src={logo} alt="shop_logo" />
+              <div className="navbarBrand_content">
+                <img src={logo} alt="Brand-Logo" />
+                <p>Enchanting Lips & Co.</p>
+              </div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas

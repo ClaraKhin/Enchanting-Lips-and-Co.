@@ -6,7 +6,21 @@
   );
   padding: 0;
 }
-
-.navbar_container img {
-  width: 50px;
+.navbar .navbar_container .navbar-brand {
+  margin: 0;
+}
+.navbar .navbar_container .navbarBrand_content {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar_container .navbarBrand_content p {
+  font-size: 13px;
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  color: #402a23;
+}
+.navbar .navbar_container .navbarBrand_content img {
+  width: 60px;
+  margin: 0;
+  padding: 0;
 }
