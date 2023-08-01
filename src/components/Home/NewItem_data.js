@@ -15,7 +15,7 @@ const NewItem = [
     id: 3,
     image: "../image/latest BR.jpg",
     desc: "Experience the velvety softness, long-lasting wear",
-    price: 11.9,
+    price: 14,
   },
   {
     id: 4,

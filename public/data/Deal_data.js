@@ -15,7 +15,7 @@ const Deal_data = [
     id: 3,
     image: "../image/RML.jpg",
     title: "Rom&nd",
-    price: 8.6,
+    price: 19,
   },
   {
     id: 4,

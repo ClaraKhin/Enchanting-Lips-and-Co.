@@ -9,13 +9,15 @@ const NavBar = () => {
       {[false].map((expand) => (
         <Navbar key={expand} expand={expand} className="navbar" sticky="top">
           <Container fluid className="navbar_container">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
               <div className="navbarBrand_content">
                 <img src={logo} alt="Brand-Logo" />
                 <p>Enchanting Lips & Co.</p>
               </div>
             </Navbar.Brand>
+
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}

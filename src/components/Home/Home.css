@@ -27,10 +27,6 @@
   color: #100c0c9a;
 }
 @media (max-width: 768px) {
-  #home .home_container .row .col {
-    display: grid;
-    grid-template-columns: repeat(2);
-  }
   #home .home_container .row img {
     width: 100%;
   }

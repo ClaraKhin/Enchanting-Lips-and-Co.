@@ -21,7 +21,7 @@ const Home = () => {
                   alt={value.title}
                   className="img-fluid"
                 />
-                <p>US ${value.price}</p>
+                <p>${value.price}</p>
               </Col>
             );
           })}
