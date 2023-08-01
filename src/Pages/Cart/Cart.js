@@ -20,7 +20,7 @@ const Cart = () => {
             if (cartItems[product.id] !== 0) {
               return <CardItem data={product} />;
             } else {
-              return null;
+              return ShopContext;
             }
           })}
         </div>

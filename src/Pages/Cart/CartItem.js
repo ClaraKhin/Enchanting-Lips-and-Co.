@@ -14,9 +14,8 @@ const CardItem = (props) => {
         <div className="countHandler">
           <button onClick={() => removeFromCart(id)}> - </button>
           <input
-            type="number"
             value={cartItems[id]}
-            onChange={(e) => updateCartItemCount(e.target.value, id)}
+            onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
           />
           <button onClick={() => addToCart(id)}> + </button>
         </div>
