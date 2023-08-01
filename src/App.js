@@ -4,22 +4,26 @@ import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
 import Products from "./Pages/Products/Products";
 import Contact from "./components/Contact/Contact";
+import Cart from "../src/Pages/Cart/Cart";
 import Footer from "./components/Footer";
 
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ShopContextProvider } from "./context/Shop_context";
 
 function App() {
   return (
     <>
       <ShopContextProvider>
-        <NavBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-        </Routes>
-        <Contact />
-        <Footer />
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/products" element={<Products />} />
+          </Routes>
+          <Contact />
+          <Footer />
+        </Router>
       </ShopContextProvider>
     </>
   );
