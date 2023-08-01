@@ -13,7 +13,7 @@ const Header = () => {
             <Carousel.Item key={id} interval={1000}>
               <img src={value.image} alt={value.title} />
               <Carousel.Caption>
-                <Button className="btn">Learn More</Button>
+                <Button href="/products" className="btn">Learn More</Button>
               </Carousel.Caption>
             </Carousel.Item>
           );

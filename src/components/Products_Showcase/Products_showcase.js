@@ -13,11 +13,15 @@ const ProductsShowcase = () => {
         <Row className="showcase-row">
           <Col className="showcase-col">
             <Card className="offer-card">
-              <Card.Img src={image1} alt="offer-card" className="offercard-image" />
+              <Card.Img
+                src={image1}
+                alt="offer-card"
+                className="offercard-image"
+              />
               <Card.ImgOverlay>
                 <Card.Text className="offercard-text">
                   <Button className="btn">
-                    <a href="/">View</a>
+                    <a href="/products">View</a>
                   </Button>
                 </Card.Text>
               </Card.ImgOverlay>

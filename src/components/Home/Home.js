@@ -26,7 +26,7 @@ const Home = () => {
             );
           })}
           <Button className="btn">
-            <a href="/">View More</a>
+            <a href="/products">View More</a>
           </Button>
         </Row>
       </Container>
