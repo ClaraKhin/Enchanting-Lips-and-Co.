@@ -19,9 +19,8 @@ const Products = () => {
         </a>
       </div>
       <div className="products">
-        {Products_data.map((value, index) => (
+        {Products_data.map((value) => (
           <Product
-            key={index}
             image={value.image}
             product={value.productName}
             price={value.price}
