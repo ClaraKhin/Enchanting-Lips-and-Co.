@@ -11,7 +11,7 @@ const Products = () => {
         <h1 className="text-center mt-3">Products</h1>
       </div>
       <div className="cart-logo">
-        <a href="/Cart">
+        <a href="/">
           <i
             class="fa-sharp fa-solid fa-cart-shopping fa-2xl"
             style={{ color: "#ee5d8d" }}
@@ -19,8 +19,13 @@ const Products = () => {
         </a>
       </div>
       <div className="products">
-        {Products_data.map((product) => (
-          <Product data={product} />
+        {Products_data.map((value, index) => (
+          <Product
+            key={index}
+            image={value.image}
+            product={value.productName}
+            price={value.price}
+          />
         ))}
       </div>
     </section>
