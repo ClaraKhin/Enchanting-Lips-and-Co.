@@ -1,6 +1,5 @@
 import React from "react";
 import Products_data from "../Products/Products_data";
-import Product from "./Product";
 
 import "./Products.css";
 
@@ -19,13 +18,18 @@ const Products = () => {
         </a>
       </div>
       <div className="products">
-        {Products_data.map((value) => (
-          <Product
-            image={value.image}
-            product={value.productName}
-            price={value.price}
-          />
-        ))}
+        {Products_data.map((product) => {
+          return (
+            <div className="product">
+              <img src={product.image} alt={product.productName} />
+              <div className="description">
+                <p>{product.productName}</p>
+                <p>{product.price}</p>
+              </div>
+              <button className="addToCartBtn">Add To Cart</button>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
